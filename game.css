@@ -1,0 +1,67 @@
+h1{
+    color: aqua;
+    text-align: center;
+    background-color: black;
+}
+body{
+    background-image: url("image1.jpeg");
+}
+.navigationBar {
+    overflow: hidden;
+    background-color: black;
+
+
+
+}
+.navigationBar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 17px;
+    font-size: 17px;
+    font-weight: bold;
+
+
+}
+
+.navigationBar a:hover {
+    background-color: white;
+    color: black;
+}
+.navigationBar a.active {
+    background-color:aqua;
+    color: black;
+}
+.letters{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 4px;
+    cursor: pointer;
+
+}
+
+.translate{
+    animation: move 4s infinite;
+
+}
+
+@keyframes move{
+    0% {
+        transform: translateX(100px) rotateY(0deg);
+    }
+    49% {
+        transform: translateX(500px) rotateY(180deg);
+    }
+    50% {
+        transform: translateX(500px) rotateY(180deg);
+    }
+    100% {
+        transform: translateX(-1330px) rotateY(180deg);
+    }
+}

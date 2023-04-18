@@ -1,0 +1,31 @@
+h1{
+    color: aqua;
+    text-align: center;
+    background-color: black;
+}
+body{
+    background-image: url("image1.jpeg");
+}
+.navigationBar {
+    overflow: hidden;
+    background-color: black;
+
+}
+.navigationBar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 17px;
+    font-size: 17px;
+    font-weight: bold;
+
+}
+
+.navigationBar a:hover {
+    background-color: white;
+    color: black;
+}
+.navigationBar a.active {
+    background-color:aqua;
+    color: black;
+}
