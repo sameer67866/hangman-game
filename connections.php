@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-$dbhost = "localhost";
+$dbhost = "sql303.infinityfree.com";
 $dbuser = "if0_34628781";
 $dbpass = "IMy94p0d1vcG";
 $dbname = "if0_34628781_abc";
